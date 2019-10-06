@@ -4,7 +4,9 @@
 - cd myrepo
 - composer update
 - mv .env.example .env
+- php artisan key:generate
 - visit http://localhost/myrepo/public/index.php
+
 
 ## About Laravel
 
